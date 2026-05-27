@@ -1,0 +1,47 @@
+Internal CSS Coding Example
+HTML
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Internal CSS Example</title>
+
+    <style>
+        body {
+            background-color: #f0f8ff;
+            text-align: center;
+            font-family: Arial;
+        }
+
+        h1 {
+            color: blue;
+        }
+
+        p {
+            color: green;
+            font-size: 20px;
+        }
+
+        button {
+            background-color: orange;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: darkorange;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Welcome</h1>
+    <p>This is Internal CSS Example</p>
+
+    <button>Click Me</button>
+
+</body>
+</html>
