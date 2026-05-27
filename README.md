@@ -1,2 +1,0 @@
-# Intership
-Malar software solution
