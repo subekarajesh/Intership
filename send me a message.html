@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .heading {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+
+
+        .box {
+            display: flexbox;
+            border-color: black;
+            border-width: 3px;
+            border-style: solid;
+            padding: 30px;
+            margin: 20px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 25px;
+        }
+
+        input {
+            background-color: rgb(190, 188, 188);
+            color: black;
+            border-radius: 20px;
+
+        }
+
+        ::placeholder {
+            font-size: 25px;
+            padding-left: 10px;
+        }
+
+        .name {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 15px;
+            width: 100%;
+
+        }
+
+        .name input {
+            margin: 5px;
+            height: 9vh;
+            width: 40vw;
+        }
+
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 15px;
+            width: 100%;
+
+        }
+
+        .container input {
+            margin-left: 1vh;
+            margin-right: 1vh;
+            height: 9vh;
+            width: 19vw;
+        }
+
+        .message {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 15px;
+            width: 100%;
+
+        }
+
+        .message input {
+            margin: 5px;
+            height: 18vh;
+            width: 40vw;
+        }
+
+        .btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 8px;
+            border-radius: 8px;
+            margin: 8px;
+
+
+        }
+
+        .btn button {
+            margin: 5px;
+            height: 10vh;
+            width: 15vw;
+            border-radius: 25px;
+            font-size: 20px;
+            background-color: rgba(168, 38, 38, 0.644);
+
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="box">
+        <div class="heading">
+            <h1>send me a message</h1>
+        </div>
+
+        <div class="name">
+            <input type="text" placeholder="Enter your name/company">
+        </div>
+        <div class="container">
+            <input type="text" placeholder="Email">
+            <input type="number" placeholder="Phonenumber">
+        </div>
+        <div class="message"> <input type="text" placeholder="Write Message..."></div>
+        <div class="btn"> <button>send message </button></div>
+    </div>
+
+</body>
+
+</html>
